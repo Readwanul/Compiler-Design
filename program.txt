@@ -1,0 +1,4 @@
+int a= 100;
+int b=12;
+int c=100/2+33*12;
+cout<<"The result is:"<<c;

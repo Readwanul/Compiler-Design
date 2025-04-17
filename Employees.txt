@@ -1,0 +1,7 @@
+Employee Information
+Name: Robin
+Employee ID: E 74
+Department: Sells
+Position: Worker
+Salary: 15000
+-----------------------

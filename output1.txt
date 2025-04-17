@@ -1,0 +1,305 @@
+Syntax Analysis:
+- Line 1: Syntax Error: Missing semicolon.
+- Line 2: Passed
+- Line 3: Passed
+- Line 4: Passed
+- Line 5: Passed
+- Line 6: Passed
+- Line 7: Syntax Error: Missing semicolon.
+- Line 8: Syntax Error: Missing semicolon.
+- Line 9: Passed
+- Line 10: Passed
+- Line 11: Passed
+- Line 12: Passed
+- Line 13: Passed
+- Line 14: Passed
+- Line 15: Passed
+- Line 16: Passed
+- Line 17: Passed
+- Line 18: Syntax Error: Missing semicolon.
+- Line 19: Syntax Error: Missing semicolon.
+- Line 20: Syntax Error: Missing semicolon.
+- Line 21: Syntax Error: Missing semicolon.
+- Line 22: Passed
+- Line 23: Passed
+- Line 24: Passed
+- Line 25: Passed
+- Line 26: Passed
+- Line 27: Syntax Error: Missing semicolon.
+- Line 28: Passed
+- Line 29: Passed
+- Line 30: Passed
+- Line 31: Passed
+- Line 32: Syntax Error: Missing semicolon.
+- Line 33: Syntax Error: Missing semicolon.
+- Line 34: Passed
+- Line 35: Syntax Error: Missing semicolon.
+- Line 36: Syntax Error: Missing semicolon.
+- Line 37: Passed
+- Line 38: Passed
+- Line 39: Passed
+- Line 40: Passed
+- Line 41: Syntax Error: Missing semicolon.
+- Line 42: Syntax Error: Missing semicolon.
+- Line 43: Passed
+- Line 44: Passed
+- Line 45: Syntax Error: Missing semicolon.
+- Line 46: Syntax Error: Missing semicolon.
+- Line 47: Syntax Error: Missing semicolon.
+- Line 48: Passed
+- Line 49: Syntax Error: Missing semicolon.
+- Line 50: Passed
+- Line 51: Passed
+- Line 52: Syntax Error: Missing semicolon.
+- Line 53: Syntax Error: Missing semicolon.
+- Line 54: Syntax Error: Missing semicolon.
+- Line 55: Passed
+- Line 56: Passed
+- Line 57: Syntax Error: Missing semicolon.
+- Line 58: Syntax Error: Missing semicolon.
+- Line 59: Passed
+- Line 60: Syntax Error: Missing semicolon.
+- Line 61: Passed
+- Line 62: Passed
+- Line 63: Passed
+- Line 64: Syntax Error: Missing semicolon.
+- Line 65: Syntax Error: Missing semicolon.
+- Line 66: Passed
+- Line 67: Passed
+- Line 68: Syntax Error: Missing semicolon.
+- Line 69: Syntax Error: Missing semicolon.
+- Line 70: Passed
+- Line 71: Passed
+- Line 72: Syntax Error: Missing semicolon.
+- Line 73: Syntax Error: Missing semicolon.
+- Line 74: Passed
+- Line 75: Passed
+- Line 76: Passed
+- Line 77: Passed
+- Line 78: Syntax Error: Missing semicolon.
+- Line 79: Syntax Error: Missing semicolon.
+- Line 80: Passed
+- Line 81: Passed
+- Line 82: Passed
+- Line 83: Syntax Error: Missing semicolon.
+- Line 84: Syntax Error: Missing semicolon.
+- Line 85: Passed
+- Line 86: Passed
+- Line 87: Passed
+- Line 88: Passed
+- Line 89: Syntax Error: Missing semicolon.
+- Line 90: Passed
+- Line 91: Passed
+- Line 92: Syntax Error: Missing semicolon.
+- Line 93: Syntax Error: Missing semicolon.
+- Line 94: Syntax Error: Missing semicolon.
+- Line 95: Passed
+- Line 96: Passed
+- Line 97: Syntax Error: Missing semicolon.
+- Line 98: Syntax Error: Missing semicolon.
+- Line 99: Passed
+- Line 100: Passed
+- Line 101: Syntax Error: Missing semicolon.
+- Line 102: Syntax Error: Missing semicolon.
+- Line 103: Passed
+- Line 104: Passed
+- Line 105: Syntax Error: Missing semicolon.
+- Line 106: Syntax Error: Missing semicolon.
+- Line 107: Syntax Error: Missing semicolon.
+- Line 108: Passed
+- Line 109: Passed
+- Line 110: Passed
+- Line 111: Syntax Error: Missing semicolon.
+- Line 112: Syntax Error: Missing semicolon.
+- Line 113: Syntax Error: Missing semicolon.
+- Line 114: Passed
+- Line 115: Passed
+- Line 116: Passed
+- Line 117: Passed
+- Line 118: Passed
+- Line 119: Syntax Error: Missing semicolon.
+- Line 120: Syntax Error: Missing semicolon.
+- Line 121: Passed
+- Line 122: Passed
+- Line 123: Passed
+- Line 124: Passed
+- Line 125: Syntax Error: Missing semicolon.
+- Line 126: Syntax Error: Missing semicolon.
+- Line 127: Syntax Error: Missing semicolon.
+- Line 128: Passed
+- Line 129: Passed
+- Line 130: Passed
+- Line 131: Syntax Error: Missing semicolon.
+- Line 132: Syntax Error: Missing semicolon.
+- Line 133: Syntax Error: Missing semicolon.
+- Line 134: Syntax Error: Missing semicolon.
+- Line 135: Passed
+- Line 136: Syntax Error: Missing semicolon.
+- Line 137: Passed
+- Line 138: Passed
+- Line 139: Passed
+- Line 140: Passed
+- Line 141: Syntax Error: Missing semicolon.
+- Line 142: Syntax Error: Missing semicolon.
+- Line 143: Syntax Error: Missing semicolon.
+- Line 144: Syntax Error: Missing semicolon.
+- Line 145: Passed
+- Line 146: Syntax Error: Missing semicolon.
+- Line 147: Passed
+- Line 148: Passed
+- Line 149: Passed
+- Line 150: Passed
+- Line 151: Passed
+
+Semantic Analysis:
+- Line 1: Skipped due to syntax error
+- Line 2: Passed
+- Line 3: Passed
+- Line 4: Passed
+- Line 5: Passed
+- Line 6: Passed
+- Line 7: Skipped due to syntax error
+- Line 8: Skipped due to syntax error
+- Line 9: Passed
+- Line 10: Passed
+- Line 11: Passed
+- Line 12: Passed
+- Line 13: Passed
+- Line 14: Passed
+- Line 15: Passed
+- Line 16: Passed
+- Line 17: Passed
+- Line 18: Skipped due to syntax error
+- Line 19: Skipped due to syntax error
+- Line 20: Skipped due to syntax error
+- Line 21: Skipped due to syntax error
+- Line 22: Semantic Error: Undeclared variable 'a' used.
+- Line 23: Semantic Error: Undeclared variable 'b' used.
+- Line 24: Semantic Error: Undeclared variable 'c' used.
+- Line 25: Semantic Error: Undeclared variable 'd' used.
+- Line 26: Semantic Error: Undeclared variable 'e' used.
+- Line 27: Skipped due to syntax error
+- Line 28: Semantic Error: Undeclared variable 'x' used.
+- Line 29: Semantic Error: Undeclared variable 'y' used.
+- Line 30: Semantic Error: Undeclared variable 'z' used.
+- Line 31: Semantic Error: Undeclared variable 'w' used.
+- Line 32: Skipped due to syntax error
+- Line 33: Skipped due to syntax error
+- Line 34: Passed
+- Line 35: Skipped due to syntax error
+- Line 36: Skipped due to syntax error
+- Line 37: Semantic Error: Undeclared variable 'sum' used.
+- Line 38: Semantic Error: Undeclared variable 'product' used.
+- Line 39: Semantic Error: Undeclared variable 'fact' used.
+- Line 40: Semantic Error: Undeclared variable 'divResult' used.
+- Line 41: Skipped due to syntax error
+- Line 42: Skipped due to syntax error
+- Line 43: Semantic Error: Undeclared variable 'complexExpression' used.
+- Line 44: Semantic Error: Undeclared variable 'simpleCalc' used.
+- Line 45: Skipped due to syntax error
+- Line 46: Skipped due to syntax error
+- Line 47: Skipped due to syntax error
+- Line 48: Semantic Error: Undeclared variable 'sum' used.
+- Line 49: Skipped due to syntax error
+- Line 50: Semantic Error: Undeclared variable 'sum' used.
+- Line 51: Passed
+- Line 52: Skipped due to syntax error
+- Line 53: Skipped due to syntax error
+- Line 54: Skipped due to syntax error
+- Line 55: Passed
+- Line 56: Passed
+- Line 57: Skipped due to syntax error
+- Line 58: Skipped due to syntax error
+- Line 59: Semantic Error: Undeclared variable 'count' used.
+- Line 60: Skipped due to syntax error
+- Line 61: Semantic Error: Undeclared variable 'sum' used.
+- Line 62: Passed
+- Line 63: Passed
+- Line 64: Skipped due to syntax error
+- Line 65: Skipped due to syntax error
+- Line 66: Passed
+- Line 67: Semantic Error: Undeclared variable 'fib' used.
+- Line 68: Skipped due to syntax error
+- Line 69: Skipped due to syntax error
+- Line 70: Passed
+- Line 71: Passed
+- Line 72: Skipped due to syntax error
+- Line 73: Skipped due to syntax error
+- Line 74: Passed
+- Line 75: Passed
+- Line 76: Passed
+- Line 77: Passed
+- Line 78: Skipped due to syntax error
+- Line 79: Skipped due to syntax error
+- Line 80: Passed
+- Line 81: Passed
+- Line 82: Passed
+- Line 83: Skipped due to syntax error
+- Line 84: Skipped due to syntax error
+- Line 85: Passed
+- Line 86: Passed
+- Line 87: Passed
+- Line 88: Passed
+- Line 89: Skipped due to syntax error
+- Line 90: Passed
+- Line 91: Passed
+- Line 92: Skipped due to syntax error
+- Line 93: Skipped due to syntax error
+- Line 94: Skipped due to syntax error
+- Line 95: Passed
+- Line 96: Passed
+- Line 97: Skipped due to syntax error
+- Line 98: Skipped due to syntax error
+- Line 99: Passed
+- Line 100: Passed
+- Line 101: Skipped due to syntax error
+- Line 102: Skipped due to syntax error
+- Line 103: Passed
+- Line 104: Passed
+- Line 105: Skipped due to syntax error
+- Line 106: Skipped due to syntax error
+- Line 107: Skipped due to syntax error
+- Line 108: Passed
+- Line 109: Passed
+- Line 110: Passed
+- Line 111: Skipped due to syntax error
+- Line 112: Skipped due to syntax error
+- Line 113: Skipped due to syntax error
+- Line 114: Passed
+- Line 115: Passed
+- Line 116: Passed
+- Line 117: Passed
+- Line 118: Passed
+- Line 119: Skipped due to syntax error
+- Line 120: Skipped due to syntax error
+- Line 121: Semantic Error: Undeclared variable 'temp' used.
+- Line 122: Semantic Error: Undeclared variable 'a' used.
+- Line 123: Semantic Error: Undeclared variable 'b' used.
+- Line 124: Passed
+- Line 125: Skipped due to syntax error
+- Line 126: Skipped due to syntax error
+- Line 127: Skipped due to syntax error
+- Line 128: Passed
+- Line 129: Passed
+- Line 130: Passed
+- Line 131: Skipped due to syntax error
+- Line 132: Skipped due to syntax error
+- Line 133: Skipped due to syntax error
+- Line 134: Skipped due to syntax error
+- Line 135: Passed
+- Line 136: Skipped due to syntax error
+- Line 137: Passed
+- Line 138: Passed
+- Line 139: Passed
+- Line 140: Passed
+- Line 141: Skipped due to syntax error
+- Line 142: Skipped due to syntax error
+- Line 143: Skipped due to syntax error
+- Line 144: Skipped due to syntax error
+- Line 145: Passed
+- Line 146: Skipped due to syntax error
+- Line 147: Passed
+- Line 148: Passed
+- Line 149: Passed
+- Line 150: Passed
+- Line 151: Passed

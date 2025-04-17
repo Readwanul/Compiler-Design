@@ -1,0 +1,151 @@
+// Variable declarations
+int a, b, c, d, e;
+float x, y, z, w;
+char ch, name[20];
+int arr[10];
+float matrix[2][2];
+
+// Function declarations
+int add(int p, int q);
+float multiply(float a, float b);
+void printResult(int result);
+int factorial(int n);
+int divide(int a, int b);
+void swap(int *a, int *b);
+int fibonacci(int n);
+void processArray(int arr[], int size);
+void matrixMultiplication(float mat1[2][2], float mat2[2][2], float result[2][2]);
+
+// Main function
+int main() {
+    // Variable initialization
+    a = 5;
+    b = 10;
+    c = a + b * (5 / 2) - 3;
+    d = 100;
+    e = d - (a + b);
+    
+    x = 1.5;
+    y = 2.5;
+    z = (x + y) * 2 - (y / x);
+    w = z / (a + 1);
+
+    ch = 'A';  // Character variable
+    strcpy(name, "SampleName");
+
+    // Function calls
+    int sum = add(a, b);
+    float product = multiply(x, y);
+    int fact = factorial(5);
+    int divResult = divide(a, b);
+
+    // Valid mathematical expressions
+    float complexExpression = ((x * y + z) / (b - a)) * (a + b - 5);
+    int simpleCalc = (5 + 3) * (8 / 2) - (c + 1);
+
+    // Control structures
+    if (complexExpression > 10) {
+        sum = sum * 2;
+    } else {
+        sum = sum - 2;
+    }
+
+    // For loop
+    for (int i = 0; i < 10; i++) {
+        arr[i] = i * 2;
+    }
+
+    // While loop
+    int count = 0;
+    while (count < 10) {
+        sum = sum + arr[count];
+        count++;
+    }
+
+    // Additional function calls
+    swap(&a, &b);
+    int fib = fibonacci(10);
+
+    // Array processing
+    int numbers[5] = {1, 2, 3, 4, 5};
+    processArray(numbers, 5);
+
+    // Matrix multiplication
+    float mat1[2][2] = {{1.1, 2.2}, {3.3, 4.4}};
+    float mat2[2][2] = {{5.5, 6.6}, {7.7, 8.8}};
+    float matResult[2][2];
+    matrixMultiplication(mat1, mat2, matResult);
+
+    // Print results
+    printResult(sum);
+    printf("Fibonacci of 10: %d\n", fib);
+    printf("Matrix Multiplication Result:\n");
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            printf("%f ", matResult[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+
+// Function definitions
+int add(int p, int q) {
+    return p + q;
+}
+
+float multiply(float a, float b) {
+    return a * b;
+}
+
+void printResult(int result) {
+    printf("The result is: %d\n", result);
+}
+
+int factorial(int n) {
+    if (n <= 1)
+        return 1;
+    return n * factorial(n - 1);
+}
+
+int divide(int a, int b) {
+    if (b == 0) {
+        printf("Error: Division by zero.\n");
+        return -1;
+    }
+    return a / b;
+}
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int fibonacci(int n) {
+    if (n <= 1)
+        return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+void processArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        if (arr[i] % 2 == 0) {
+            printf("Even number: %d\n", arr[i]);
+        } else {
+            printf("Odd number: %d\n", arr[i]);
+        }
+    }
+}
+
+void matrixMultiplication(float mat1[2][2], float mat2[2][2], float result[2][2]) {
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 2; j++) {
+            result[i][j] = 0;
+            for (int k = 0; k < 2; k++) {
+                result[i][j] += mat1[i][k] * mat2[k][j];
+            }
+        }
+    }
+}
